@@ -84,6 +84,8 @@ The difference between the original data set and the augmented data set is the f
 
 My final model consisted of the following layers:
 
+had some trouble with weights and biases.  I had used random_normal for weights and biases in the LeNet quiz.  When I copied it here, I got terrible accuracy.  After switching to truncated normal and zeros, it worked.
+
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
