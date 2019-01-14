@@ -34,6 +34,16 @@ The goals / steps of this project are the following:
 ---
 ### Writeup / README
 
+#### 0. Sources
+I read through the following papers as part of my work.  They were very helpful considering this is the first time I've used tensorflow
+1)	AlexNet: http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf - AlexNet
+2)	Discussion on different optimizers:  http://ruder.io/optimizing-gradient-descent/ 
+3)	Medium – Data Augmentation Techniques in CNN using Tensor Flow, Prasad Pai
+4)	https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced
+5)	On dropout and batch normalization: https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16 - 
+7)	Sanity checking - http://cs231n.github.io/neural-networks-3/#sanitycheck
+
+
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
 You're reading it! 
@@ -97,7 +107,7 @@ Here is an example of augmented images after all these stages:
 
 To build my final model, I relied heavily on the LeNet project as a starting point.  After reading through the AlexNet paper, I added two additional convolution layers and dropout in the fully connected layers.  Each additional convolutional layer contributed nearly 3% in accuracy.  The dropout layer contributed to validation accuracy and prevented overfitting.  I attempted to use L2 normalization as well (you can see the code commented out in cell 24 of the Jupyter notebook's loss operation, but I found it to cause more trouble than it was worth.
 
-Additionally, I had some trouble with using random_normal for weights and biases.  They had been successful in the LeNet quiz, but when I copied it here, I got terrible accuracy.  After switching to truncated normal for weights and zeros for biases, things improved dramatically.
+Additionally, I had some trouble with using random_normal for weights and biases.  They had been successful in the LeNet quiz, but when I copied it here, I got terrible accuracy.  Apparently the data points beyond two standard deviations were saturating some of the neurons.  After switching to truncated normal for weights and zeros for biases, things improved dramatically.
 
 
 Changing the last convulutional layer's padding from Valid to Same increased accuracy by almost 3%.  It added many more features which could be trained.
