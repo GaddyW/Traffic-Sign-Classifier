@@ -68,8 +68,8 @@ I used numpy's shape function to get infromation on the data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 You can find visualization of all sign types in the Jupyter notebook and the HTML.  An example of 30kph signs is shown here:
-[image1](./examples/example_image.png "Dataset Visualization")
-[image1](./examples/example_image.png)
+[image1](/examples/example_image.png "Dataset Visualization")
+[image1](/examples/example_image.png)
 ![alt text][image1]
 
 
