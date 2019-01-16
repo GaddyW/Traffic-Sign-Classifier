@@ -20,8 +20,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/example_image.png "Dataset Visualization"
-[image2]: ./examples/augmented_image.png "Augmentation"
-[image3]: ./examples/sign_histogram.png "Histogram"
+[image2]: examples/augmented_image.png "Augmentation"
+[image3]: examples/sign_histogram.png "Histogram"
 [image4]: ./examples/test_sign_accuracy.png "Accuracy"
 [image5]: ./examples/right_turn.jpg "Traffic Sign"
 [image6]: ./examples/web_images.png "Images from the web"
