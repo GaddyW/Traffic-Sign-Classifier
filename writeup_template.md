@@ -19,13 +19,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/example_image.png "Dataset Visualization"
-[image2]: examples/augmented_image.png "Augmentation"
-[image3]: examples/sign_histogram.png "Histogram"
-[image4]: ./examples/test_sign_accuracy.png "Accuracy"
-[image5]: ./examples/right_turn.jpg "Traffic Sign"
-[image6]: ./examples/web_images.png "Images from the web"
-[image7]: ./examples/web_augmented.png "Precprocessed images from the web"
+[image1]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/example_image.png "Dataset Visualization"
+[image2]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/augmented_image.png "Augmentation"
+[image3]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/sign_histogram.png "Histogram"
+[image4]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/test_sign_accuracy.png "Accuracy"
+[image5]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/right_turn.jpg "Traffic Sign"
+[image6]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/web_images.png "Images from the web"
+[image7]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/web_augmented.png "Precprocessed images from the web"
 
 
 ## Rubric Points
@@ -68,8 +68,6 @@ I used numpy's shape function to get infromation on the data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 You can find visualization of all sign types in the Jupyter notebook and the HTML.  An example of 30kph signs is shown here:
-[image1](examples/example_image.png "Dataset Visualization")
-[image1](examples/example_image.png)
 ![alt text][image1]
 
 
