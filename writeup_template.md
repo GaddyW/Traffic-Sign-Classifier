@@ -19,13 +19,13 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/example_image.png "Dataset Visualization"
-[image2]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/augmented_image.png "Augmentation"
-[image3]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/sign_histogram.png "Histogram"
-[image4]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/test_sign_accuracy.png "Accuracy"
-[image5]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/right_turn.jpg "Traffic Sign"
-[image6]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/web_images.png "Images from the web"
-[image7]: https://github.com/GaddyW/Traffic-Sign-Classifier/examples/web_augmented.png "Precprocessed images from the web"
+[image1]: ./output_images/example_image.png "Dataset Visualization"
+[image2]: ./output_images/augmented_image.png "Augmentation"
+[image3]: ./output_images/sign_histogram.png "Histogram"
+[image4]: ./output_images/test_sign_accuracy.png "Accuracy"
+[image5]: ./output_images/right_turn.jpg "Traffic Sign"
+[image6]: ./output_images/web_images.png "Images from the web"
+[image7]: ./output_images/web_augmented.png "Precprocessed images from the web"
 
 
 ## Rubric Points
