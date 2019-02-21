@@ -10,6 +10,7 @@ This project is part of Udacity's self-driving car nanodegree.  In this project,
 
 #### Project output can be found here
 HTML here: [project html](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.html)
+
 Jupyter notebook here:  [project code](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 [//]: # (Image References)
