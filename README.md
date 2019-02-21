@@ -1,11 +1,6 @@
 # **Traffic Sign Recognition** 
 
-
----
-
-**Build a Traffic Sign Recognition Project**
-
-The goals / steps of this project are the following:
+This project is part of Udacity's self-driving car nanodegree.  In this project, I use a convolutional neural network to classify street signs.  The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
@@ -13,6 +8,9 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
+#### Project output can be found here
+HTML here: [project html](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.html)
+Jupyter notebook here:  [project code](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 [//]: # (Image References)
 
@@ -25,14 +23,8 @@ The goals / steps of this project are the following:
 [image7]: ./output_images/web_augmented.png "Precprocessed images from the web"
 
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
----
-### Writeup / README
-
-#### 0. Sources
-I read through the following papers as part of my work.  They were very helpful considering this is the first time I've used tensorflow
+#### 0. Sources:  I read through the following papers as part of my work.  They were very helpful considering this is the first time I've used tensorflow
 1)	AlexNet: http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf - AlexNet
 2)	Discussion on different optimizers:  http://ruder.io/optimizing-gradient-descent/ 
 3)	Medium – Data Augmentation Techniques in CNN using Tensor Flow, Prasad Pai
@@ -40,13 +32,6 @@ I read through the following papers as part of my work.  They were very helpful 
 5)	On dropout and batch normalization: https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16 - 
 7)	Sanity checking - http://cs231n.github.io/neural-networks-3/#sanitycheck
 
-
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
-
-You're reading it! 
-
-HTML here: [project html](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.html)
-Jupyter notebook here:  [project code](https://github.com/GaddyW/Traffic-Sign-Classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
 
 
